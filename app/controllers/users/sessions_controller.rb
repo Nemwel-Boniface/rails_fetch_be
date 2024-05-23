@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class Users::SessionsController < Devise::SessionsController
-
+  include RackSessionsFix
   private
   def respond_with(current_user, _opts = {})
     render "users/sessions/session_success", status: :ok
