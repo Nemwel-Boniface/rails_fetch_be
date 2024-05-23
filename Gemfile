@@ -49,3 +49,5 @@ end
 gem 'rack-cors', '~> 2.0'
 
 gem 'rubocop', '~> 1.64'
+
+gem "devise", "~> 4.9"
