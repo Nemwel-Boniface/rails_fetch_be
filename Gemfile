@@ -13,7 +13,7 @@ gem 'pg', '~> 1.1'
 gem 'puma', '~> 5.0'
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
-gem "jbuilder"
+gem 'jbuilder'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
@@ -50,8 +50,8 @@ gem 'rack-cors', '~> 2.0'
 
 gem 'rubocop', '~> 1.64'
 
-gem "devise", "~> 4.9"
+gem 'devise', '~> 4.9'
 
-gem "devise-jwt", "~> 0.11.0"
+gem 'devise-jwt', '~> 0.11.0'
 
-gem "jsonapi-serializer", "~> 2.2"
+gem 'jsonapi-serializer', '~> 2.2'

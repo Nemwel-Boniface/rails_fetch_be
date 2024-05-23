@@ -1,6 +1,6 @@
 json.status do
   json.code 200
-  json.message "Signed up to the Rails Fetch application successfully."
+  json.message 'Signed up to the Rails Fetch application successfully.'
   json.data do
     json.user do
       json.id current_user.id
