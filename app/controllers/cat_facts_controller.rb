@@ -1,4 +1,5 @@
 class CatFactsController < ApplicationController
+  before_action :authenticate_user!
   def index
     response = HTTParty.get('https://cat-fact.herokuapp.com/facts')
     @response = JSON.parse(response.body)
