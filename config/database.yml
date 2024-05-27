@@ -85,6 +85,7 @@ test:
 #
 production:
   <<: *default
+  url: <%= ENV['DATABASE_URL'] %>
   database: rails_fetch_be_production
   username: rails_fetch_be
   password: <%= ENV["RAILS_FETCH_BE_DATABASE_PASSWORD"] %>
