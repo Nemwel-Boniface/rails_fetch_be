@@ -56,4 +56,4 @@ gem 'devise-jwt', '~> 0.11.0'
 
 gem 'jsonapi-serializer', '~> 2.2'
 
-gem "httparty", "~> 0.22.0"
+gem 'httparty', '~> 0.22.0'
