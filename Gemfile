@@ -4,13 +4,13 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '3.0.2'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem 'rails', '~> 7.0.8', '>= 7.0.8.3'
+gem 'rails', '7.1.3.2'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'
 
 # Use the Puma web server [https://github.com/puma/puma]
-gem 'puma', '~> 5.0'
+gem 'puma', '~> 6.0'
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem 'jbuilder'
@@ -55,3 +55,5 @@ gem 'devise', '~> 4.9'
 gem 'devise-jwt', '~> 0.11.0'
 
 gem 'jsonapi-serializer', '~> 2.2'
+
+gem 'httparty', '~> 0.22.0'
